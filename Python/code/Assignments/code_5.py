@@ -10,8 +10,8 @@ def dec2bin(n):
     # Adding the numbers by using power of 10's using one's twos'....
     res = sum(d * 10**i for i, d in enumerate(bin[::-1])) 
     return res
-
-print(dec2bin(16))
+n=int(input("Enter number in decimal format:"))
+print("{} in binary:{}".format(n,dec2bin(n)))
 
 
 

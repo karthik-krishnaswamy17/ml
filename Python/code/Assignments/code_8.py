@@ -6,7 +6,7 @@ if n<9:
 else:
     while(n>9):
         n=prodDigits(n)
-        if n>9:
+        if n>=0:
             c+=1
     print("MDR:{} MPersistence:{}".format(n,c))    
         
